@@ -17,12 +17,12 @@
   /* 大椭圆 */
   width: 500px;
   height: 200px;
-  background: rgb(48, 38, 25);
+  background: rgb(0, 0, 25);
   box-sizing: border-box;
   border-color: rgb(66, 66, 66);
   border-radius: 100%;
   border-style: solid;
-  border-width: 5px;
+  border-width: 6px;
   position: absolute;
 }
 .one_2::before {
@@ -35,7 +35,7 @@
   border-color: rgb(74, 74, 74);
   border-radius: 100%;
   border-style: solid;
-  border-width: 5px;
+  border-width:3px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -61,7 +61,7 @@
   height: 100px;
   background: rgb(94, 79, 60);
   box-sizing: border-box;
-  border-color: rgb(66, 66, 66);
+  border-color: rgb(7, 44, 66);
   border-style: solid;
   border-width: 5px 5px 0px 5px;
   position: absolute;
@@ -81,7 +81,7 @@
 .two {
   width: 450px;
   height: 650px;
-  background: rgb(68, 100, 68);
+  background: rgb(34, 100,66);
   border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
 }
 .heart {
@@ -96,13 +96,13 @@
 .three {
   width: 600px;
   height: 600px;
-  background: rgb(76, 41, 37);
+  background: rgb(22, 41, 54);
   position: absolute;
 }
 .three:before {
   content: '';
-  width: 270px;
-  height: 500px;
+  width:200px;
+  height:400px;
 
   border-radius: 270px 270px 0 0;
   background: salmon;
@@ -117,10 +117,10 @@
   width: 270px;
   height: 500px;
   border-radius: 270px 270px 0 0;
-  background: rgb(114, 250, 196);
+  background: rgb(11,45, 196);
   transform: rotateZ(45deg);
   transform-origin: 100% 100%;
   position: absolute;
   top: 10%;
-  right: 50%;
+  right: 40%;
 }
